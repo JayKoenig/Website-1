@@ -1,0 +1,116 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+.h2 {
+  margin: 10px;
+  align-items: justify;
+  left: auto;
+  right: auto;
+  text-align: center;
+}
+.iphones{
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+  }
+
+.box {
+  
+  
+display: flex;
+align-items: center;
+  height: 200px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+  transform: translateX(400%);
+  transition: transform 0.4s ease;
+}
+
+.box:nth-of-type(even) {
+  transform: translateX(-400%);
+}
+
+.box.show {
+  transform: translateX(0);
+}
+
+.box h2 {
+  font-size: 45px;
+}
+.notif-button{background-color: #ff7979;
+
+  color: #fff;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: inherit;
+  padding: 8px 30px;
+  margin: 5px;
+  font-size: 14px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;}
+
+  .notif-button2{background-color:whitesmoke;
+
+    color: black;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: inherit;
+    padding: 8px 30px;
+    margin: 5px;
+    font-size: 14px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+    .newsletter{
+      display: block;
+      margin-left: auto;
+      margin-right: 80px;
+      width: 50%;
+      text-align: justify;
+    
+    }
+   
+   h1{
+   
+    text-align: justify;
+      display: block;
+      margin-left: auto;
+      margin-left: 35%;
+      width: 70%;
+   }
+   
+    h3{
+      text-align:center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 70%;
+    }
+    h4{text-align: justify;
+      display: block;
+      margin-left: auto;
+      margin-right: 10%;
+      width: 70%;
+
+    }
+    footer{
+      text-align: center;
+    }
+
+   

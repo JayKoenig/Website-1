@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<html> 
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="rotatingpage.css" />
+    <link rel="stylesheet" href="progresscircle.css"/>
+    <link rel="stylesheet" href="slideanimation.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="hiddensearch.css" />
+    <title>Trade-O-Rama</title>
+  </head>
+  <body>
+   
+
+    
+  
+  
+   <!--rotating page stuff-->
+    <div class="container">
+      <div class="circle-container">
+        <div class="circle">
+          <button id="close">
+            <i class="fas fa-times"></i>
+          </button>
+          <button id="open">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+      <!--searchstuff-->
+      <div class="search">
+        <input type="text" class="input" placeholder="Search...">
+        <button class="btn1">
+          <i class="fas fa-search"></i>
+        </button>
+      </div>
+      <script src="hiddensearch.js"></script>
+   
+      <div class="content">
+      <h1> Trade-O-Rama!</h1>
+        <h4>Welcome to the <i>Easiest</i>   way to purchase high-end phones for a fraction of the price!</h4>
+    
+        
+        
+        <div class="iphones">
+        <div class="box"><input type="image" src="https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c2Ftc3VuZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" width=600px height=200px ></div>
+        <br><h2>Samsung Phones</h2></br>
+       
+        <div class="box"><input type="image" src="https://images.unsplash.com/photo-1523206489230-c012c64b2b48?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cGhvbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" width=600px height="200px" ></div>
+         <h2> Used I-phones</h2>
+        <div class="dummy"></div>
+       <br> <div class="box"><input type="image" src="https://images.unsplash.com/photo-1512054502232-10a0a035d672?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8aXBob25lfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Phone" width=600px height=200px ></div></br>
+        <h2> New I-Phones</h2></br>
+        <div class="box"><input type="image" src="https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aXBob25lfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"  width=600px height=200px ></div>
+        <h2>Winter sale Items</h2>
+        <div class="box"><input type="image" src="https://images.unsplash.com/photo-1591337676887-a217a6970a8a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGlwaG9uZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" width=600px height=200px ></div>
+       <h2> Refurbished Phones</h2>
+      <br><div class="box"><input type="image" src="https://images.unsplash.com/photo-1620288650054-99a09b49f7bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHNhbXN1bmclMjBwaG9uZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" width=600px height=200px ></div></br>
+      <h2>Phone Accessories</h2>
+    </div>
+        <script src="slideanimation.js"></script>
+
+    <!--Progress bars-->
+        <div class="container2"></br>
+          <div class="progress-container2">
+            <div class="progress" id="progress"></div>
+            <div class="circle2 active">1</div>
+            <div class="circle2">2</div>
+            <div class="circle2">3</div>
+            <div class="circle2">4</div>
+          </div>
+    
+          <button class="btn2" id="prev" disabled>Prev</button>
+          <button class="btn2" id="next">Next</button>
+        </div>
+        <script src="progresscircle.js"></script>
+        <!--rotating page stuff-->
+    <nav>
+      <ul>
+        <li><i class="fas fa-home"></i><a href="#"> Home</a></li>
+        <li><i class="fas fa-user-alt"></i><a href="#"> About</a></li>
+        <li><i class="fas fa-envelope"></i><a href="#"> Contact</a></li>
+      </ul>
+    </nav>
+    <script src="rotatingpage.js"></script>
+  
+    <!---newsletter-->
+    <div id="newsletter" class="newsletter-popup">
+      <div class="newsletter-popup" style="padding:32px">
+        <div class="newsletter-popup-backround">
+          <i onclick="document.getElementById('newsletter').style.display='none'" class="fa fa-remove w3-right w3-button w3-transparent w3-xxlarge"></i>
+          <h2 class="newsletter">NEWSLETTER</h2>
+         <h3>Join our mailing list to receive updates on new arrivals and special offers.</h3>
+          <p><input class="notif-button2" type="text" placeholder="Enter e-mail"></p>
+          <button type="button" class="notif-button" onclick="document.getElementById('newsletter').style.display='none'">Subscribe</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <div class="rickrolled">
+    <h3>Contact-Info: <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Contact Us</a></h3>
+    <h3>Shipping Info& Returns:<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Shipping Info</a></h3>
+    <h3>My Orders:<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">My Orders</a></h3>
+    <h3>FAQs:<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">FAQs</a></h3>
+    <h3>About Us:<a href="https://youtu.be/QMW4AqbuSGg?t=288">About Us</a></h3>
+  </div>
+    <h5>Powered by: J.Koenig & R. Levin <a href="J.koenig&R.Levin.com">J.Koenig&R.levin.com</a></footer></h5>
+</html>
